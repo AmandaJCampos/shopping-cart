@@ -1,0 +1,37 @@
+/* Font-Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    /* Paleta de cores */
+    --color-01: #f9f9f9;
+    --color-02: #e0e0e0;
+    --color-03: #b5b5b5;
+    --color-04: #858585;
+    --color-05: #656565;
+    --color-06: #454545;
+    --color-07: #232323;
+    --color-08: #000000a3;
+    --color-09: #1d69f6;
+    --color-010: #eb2247;
+    --color-011: #ffbf00;
+    --color-012: #0ce700;
+
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family: "Montserrat";
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--color-02);
+    color: var(--color-07);
+}
+
