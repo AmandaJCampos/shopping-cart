@@ -79,12 +79,12 @@ main{
     padding: 2rem 4rem;
 }
 
-#product-list{
+#sectionProducts {
     display: grid;
-    /* grid-template-columns: auto auto auto; */
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
 }
+
 
 .product-img{
     display: flex;
