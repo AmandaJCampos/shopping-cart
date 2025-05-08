@@ -50,7 +50,8 @@
 // Busca os dados(produtos) na API
 function getProducts(){
   // Usa a API "fecth" (Nativa no JS) para conectar na MockAPI (online)
-  const linkAPI = "https://681ce1d3f74de1d219ae1ba5.mockapi.io/api/product"
+  //const linkAPI = "https://681ce1d3f74de1d219ae1ba5.mockapi.io/api/product"
+  const linkAPI = "https://67620a7446efb3732373870b.mockapi.io/api/product";
 
   //Faz a conecxão com a API
   fetch(linkAPI)
@@ -60,7 +61,7 @@ function getProducts(){
      .then(data =>{ 
       const productList = []; 
         //Adiciona os objetos no array
-      productList.push(... data);
+      productList.push(... data); //Spread operator
       listProducts(productList)
     });
 
@@ -107,7 +108,10 @@ function listProducts(productList) {
     card.appendChild(productAction);
 
     const h3 = document.createElement("h3");
-    h3.textContent = product.price;
+    //h3.textContent = product.price;
+    h3.textContent = product.price.toLocaleString("pt-br",{
+      style: "currency", currency:"BRL"
+    });
     productAction.appendChild(h3);
 
     const btnAddCart = document.createElement("button");
@@ -118,5 +122,4 @@ function listProducts(productList) {
 }
 
 getProducts();
-
-
+// listProducts();

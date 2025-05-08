@@ -90,7 +90,7 @@ main{
     display: flex;
     width: 100%;
     img{
-        width: 100%;
+        width: 100%; 
     }
 }
 
@@ -99,6 +99,10 @@ main{
     background-color: var(--color-01);
     overflow: hidden;
     transition: all 0.3s;
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     &:hover{
         transform: scale(1.08);
