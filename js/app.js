@@ -11,40 +11,7 @@
     price: "R$ 1,000.999",
     createdAt: "07/05/2025",
     updatedAt: "07/05/2025",
-  },
-  {
-    id: 2,
-    image:
-      "https://cdn.pixabay.com/photo/2018/11/17/18/58/shelby-3821716_1280.jpg",
-    name: "Mclaren Senna",
-    description:
-      "Vero sequi laboriosam recusandae facere debitis beatae obcaecati.",
-    price: "R$ 1,000.999",
-    createdAt: "07/05/2025",
-    updatedAt: "07/05/2025",
-  },
-  {
-    id: 3,
-    image:
-      "https://cdn.pixabay.com/photo/2018/11/17/18/58/shelby-3821716_1280.jpg",
-    name: "Audi A3",
-    description:
-      "Vero sequi laboriosam recusandae facere debitis beatae obcaecati.",
-    price: "R$ 1,000.999",
-    createdAt: "07/05/2025",
-    updatedAt: "07/05/2025",
-  },
-  {
-    id: 4,
-    image:
-      "https://cdn.pixabay.com/photo/2018/11/17/18/58/shelby-3821716_1280.jpg",
-    name: "Maserati Grecale",
-    description:
-      "Vero sequi laboriosam recusandae facere debitis beatae obcaecati.",
-    price: "R$ 1,000.999",
-    createdAt: "07/05/2025",
-    updatedAt: "07/05/2025",
-  },
+  }
 ];*/
 
 // Busca os dados(produtos) na API
@@ -123,3 +90,4 @@ function listProducts(productList) {
 
 getProducts();
 // listProducts();
+
